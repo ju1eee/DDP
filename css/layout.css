@@ -1,0 +1,151 @@
+/* header */
+
+.header{
+    position:fixed;
+    left:0;
+    top:0;
+    right:0;
+    bottom:auto;
+    z-index:10;
+    width:100%;
+    height:64px;
+    background-color:transparent;
+    backdrop-filter: blur(16px);
+}
+
+.header .inner{
+    position:relative;
+    z-index:1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .logo{
+    position:absolute;
+    left:80px;
+    right:auto;
+    z-index:1;
+    padding-top:12px;
+    padding-bottom:12px;
+    font-size:32px;
+    line-height:1;
+    font-weight:400;
+    text-align:center;
+}
+
+.logo img{
+    width:80px;
+}
+
+.header .logo a{
+    line-height:40px;
+}
+
+.header .logo-2{
+    display:none;
+}
+
+.header nav{
+    position:relative;
+    display:flex;
+    width:100%;
+    height:100%;
+    flex-direction: row;
+    justify-content: right;
+    flex-wrap: nowrap;
+    align-items: center;
+    grid-column-gap: 128px;
+    grid-row-gap: 0px;
+}
+
+.header .nav-item{
+    display:flex;
+    height:100%;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    align-self: stretch;
+}
+
+
+
+/* responsive */
+
+@media screen and (max-width: 1280px){
+
+}
+
+@media screen and (max-width: 1024px){
+    .wrapper .inner{
+        padding-right:48px;
+        padding-left:48px;
+    }
+
+    .header .inner{
+        justify-content: space-between;
+        align-items: stretch;
+    }
+
+    .header .logo{
+        position:relative;
+        width:auto;
+    }
+
+    .header .logo-1{
+        display:none;
+    }
+
+    .header .logo-2{
+        display:block;
+    }
+
+    .header nav{
+        display:block;
+        width:auto;
+    }
+
+    .header .nav2{
+        display:none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .wrapper .inner{
+        padding-right:32px;
+        padding-left:32px;
+    }
+}
+
+@media screen and (max-width:480px){
+    .wrapper .inner{
+        padding-right:24px;
+        padding-left:24px;
+    }
+}
+
+
+/*  footer */
+
+.footer{
+    position:relative;
+    width:100%;
+    height:120px;
+    background:hsla(0, 0%, 22%, 0.3);
+  }
+  
+  .footer .copyright{
+    position:absolute;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    font-size:1em;
+    margin-top:40px;
+    margin-left:40%;
+    color:#ccc;
+  }
+  
+
+

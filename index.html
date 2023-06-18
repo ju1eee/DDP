@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DDP</title>
+
+    <link href="images/main/favicon.png" rel="shortcut icon" type="image/x-icon">
+    <link href="images/main/icon.jpeg" rel="ddp-touch-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="js/SplitType.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+	<wrapper class="wrapper">
+		<!-- header 시작 -->
+		<header class="header">
+			<div class="inner">
+				<h1 class="logo">
+					<a class="logo-1" href="index.html"><img src="images/main/ddp-logo.png" width="100px"></a>
+					<a class="logo-2" href="index.html"><img src="images/main/ddp-logo.png" width="100px"></a>
+				</h1>
+
+				<nav>
+					<div class="nav-item nav1">
+						<a href="index.html">DDP 안내</a>
+						<a href="fashion.html">SFW</a>
+						<a href="exhibition.html">Exhibition</a>
+					</div>
+
+					<div class="nav-item nav2">
+						<a href="#">LOGIN</a>
+						<a href="#">SIGN UP</a>
+					</div>
+				</nav>
+			</div>
+		</header>
+
+		<!-- header 끝 -->
+
+		<main class="container">
+			<!-- intro -->
+			<section id="intro" class="main-intro">
+				<h2 class="blind">intro</h2>
+				<div class="inner">
+					<video id="video" src="video/main-video.mp4" muted autoplay loop></video>
+                    <div class="btn-area">
+                        <button type="button" onclick="toggleSound()">
+                            <span class="btn-pause">Sound OFF</span>
+                            <span class="btn-sound">Sound ON</span>
+                        </button>
+                    </div>
+					<div class="group-content">
+						<div class="tit">
+							<h2>
+								꿈꾸고, 만들고, 누리는<br>
+							</h2>
+							<p>
+								Dream, Design, Play <br>
+								DDP <br>
+							</p>
+						</div>
+					</div>
+				</div>
+                <span class="scroll-btn">
+                    <a href="#">
+                        <span class="mouse">
+                            <span>
+                            </span>
+                        </span>
+                    </a>
+                </span>
+			</section>
+
+			<!-- intro 끝 -->
+
+			<!-- about -->
+			<section id="about" class="main-about">
+				<h2 class="blind">DDP 소개</h2>
+				<div class="inner">
+					<div class="group-column">
+						<div class="tit">
+							<div class="tit-wrap">
+								<span class="tit-box">DDP는 디자인 트렌드가 시작되고 문화가 교류하는 장소입니다.</span>
+							</div>
+							<div class="tit-wrap">
+								<span class="tit-box">세계 최초 신제품과 패션 트렌드를 알리고, 새로운 전시를 통해 지식을 공유하며,</span>
+							</div>
+							<div class="tit-wrap">
+								<span class="tit-box">다양한 디자인 체험이 가능한 콘텐츠로 운영됩니다.</span>
+							</div>
+							<div class="tit-wrap">
+								<span class="tit-box">이러한 활동을 통해 DDP는 아시아로, ‘디자인·패션산업의 발신지’의 역할을 할 것입니다.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!--about 끝 -->
+
+			<!-- scroll -->
+			<section class="about horizontal-scroll__section">
+                <div class="inner">
+                    <div class="horizontal-scroll__wrapper">
+                        <h2>DDP<br>
+                            BEST PLACE</h2>
+                        <div class="horizontal-scroll__content" style="translate: none; rotate: none; scale: none; transform: translate(-25.5px, 0px);">
+                            <div class="about__item">
+                                <img src="images/main/scroll1.jpeg">
+                                <div class="content">
+                                    <div>
+                                        <h3>DDP 뮤지엄</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about__item">
+                                <img src="images/main/scroll2.jpeg">
+                                <div class="content">
+                                    <div>
+                                        <h3>D-숲</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="about__item">
+                                <img src="images/main/scroll3.jpeg">
+                                <div class="content">
+                                    <div>
+                                        <h3>디자인 쇼룸, 디자인홀</h3>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="about__item">
+                                <img src="images/main/scroll4.jpeg">
+                                <div class="content">
+                                    <div>
+                                        <h3>DDP디자인스토어</h3>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="about__item">
+                                <img src="images/main/scroll5.jpeg">
+                                <div class="content">
+                                    <div>
+                                        <h3>서울-온</h3>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="about__item">
+                                <img src="images/main/scroll6.jpeg">
+                                <div class="content">
+                                    <div>
+                                        <h3>미디어아트 갤러리</h3>
+
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="about__item">
+                                <img src="images/main/scroll7.jpeg">
+                                <div class="content">
+                                    <div>
+                                        <h3>서울라이트</h3>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <script>
+                    //페이지 로드가 완료된 후 함수 실행
+                    $(document).ready(function () {
+                        //섹션과 컨텐츠 선택자
+                        const scrollSection = $('.horizontal-scroll__section');
+                        const scrollContent = $('.horizontal-scroll__content');
+
+                        //섹션 높이와 컨텐츠 너비 구함
+                        const scrollHeight = scrollSection.height();
+                        const contentWidth = scrollContent.width();
+
+                        //스크롤 이벤트를 감지
+                        $(document).on('scroll', function () {
+                            //현재 스크롤된 위치 계산
+                            const scrolled = $(window).scrollTop();
+                            //섹션의 offset 절대값 계산
+                            const sectionOffset = Math.abs(scrollSection.offset().top - scrolled);
+                            //바닥을 아직 도달하지 않았는지 확인
+                            const notReachedBottom = parseInt(Math.max(0, scrollSection[0].getBoundingClientRect().bottom - $(window).height()));
+
+                            //섹션 오프셋이 최소값을 초과했고 아직 바닥을 도달하지 않은 경우에 애니메이션을 실행함.
+                            if (scrollSection.offset().top <= scrolled && notReachedBottom) {
+                                gsap.to(scrollContent, {
+                                    x: -sectionOffset
+                                });
+                            }
+                        });
+
+                        //hero 효과 작성
+                        const heroTween = function (background) {
+                            const tl = gsap.timeline();
+
+                            //백그라운드 높이 조절 애니메이션 설정
+                            tl.to(background, {
+                                height: '100%',
+                                ease: 'power3.easeOut'
+                            });
+
+                            return tl;
+                        };
+
+                        //ScollMagic 컨트롤러 생성
+                        const controller = new ScrollMagic.Controller();
+
+                        //ScollMagic 씬 설정
+                        const heroScene = new ScrollMagic.Scene({
+                            //트리거 요소
+                            triggerElement: '.about',
+                            //트리거 훅 (시작 위치)
+                            triggerHook: 0,
+                            //애니메이션 지속 시간
+                            duration: '70%'
+                        })
+                    });
+
+                </script>
+            </section>
+			<!-- scroll 끝 -->
+
+			<!-- digital -->
+			<section id="digital-museum" class="digital">
+				<div class="inner">
+					<h1>Promotion</h1>
+					<div class="group-content">
+						<div class="border-area"></div>
+						<div class="illustr-area">
+							<img src="images/main/size.png" alt="뚱니버스">
+						</div>
+						<h2 class="tit-wrap">
+							<span class="tit01">
+								꼴값쇼
+							</span>
+							<br>
+							<span class="tit02">
+								뚱니버스
+							</span>
+						</h2>
+						<div class="desc-wrap">
+							<strong>DDP 오픈큐레이팅 vol.28 &lt;꼴값쇼: 뚱니버스, 다음세대 문자의 침공&gt;</strong>
+							<p class="desc">
+								2023년 DDP 오픈큐레이팅 공모 1순위로 선정된 '엉뚱상상'의 &lt;꼴값쇼: 뚱니버스, 다음세대 문자의 침공&gt;
+								을 개최합니다.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- digital 끝 -->
+
+            <!-- notice -->
+
+			<section id="exhibition" class="notice">
+				<div class="inner">
+					<div class="group-tit">
+						<h2 class="tit">Notice</h2>
+					</div>
+					<ul class="notice-list">
+						<li class="notice-item first">
+							<div class="label-area">
+                                <div class="float-wrap">
+                                    <img src="images/main/notice1.png">
+                                </div>
+                                <div class="label-wrap">
+                                    <em class="label">DDP</em>
+                                </div>
+                            </div>
+							<div class="tit-area">
+                                <h3>디자인 스타트업 엑셀러레이팅 프로그램</h3>
+                            </div>
+							<div class="txt-area">
+                                <p class="desc-wrap">
+                                    서울디자인창업센터는 예비~창업 5년 이내 디자인창업 기업의 단기 고속성장 지원과 디자인분야 투자유치 활성화를 위해 「2023 디자인 스타트업 액셀러레이팅 프로그램」을 추진하고 있습니다. 
+                                    동 지원 사업에 참여할 기업을 아래와 같이 공모하오니 많은 관심과 참여 바랍니다.
+                                </p>
+                                <div class="period-wrap">
+                                    <span class="period">2023-05-17 ~ 2023-06-17</span>
+                                </div>
+                            </div>
+						</li>
+						<li class="notice-item">
+							<div class="label-area">
+                                <div class="float-wrap">
+                                    <img src="images/main/notice2.png">
+                                </div>
+                                <div class="label-wrap">
+                                    <em class="label">DDP</em>
+                                </div>
+                            </div>
+							<div class="tit-area">
+                                <h3>대한민국공예품대전 모집 공고</h3>
+                            </div>
+							<div class="txt-area">
+                                <p class="desc-wrap">공예문화산업 활성화를 위해 2023년도 제53회 대한민국공예품대전 서울시 예선대회를 개최하오니
+                                    여러분의 많은 관심과 참여 바랍니다.</p>
+                                <div class="period-wrap">
+                                    <span class="period">2022-06-26 ~ 2023-07-04</span>
+                                </div>
+                            </div>
+						</li>
+						<li class="notice-item">
+							<div class="label-area">
+                                <div class="float-wrap">
+                                    <img src="images/main/notice3.png">
+                                </div>
+                                <div class="label-wrap">
+                                    <em class="label">DDP</em>
+                                </div>
+                            </div>
+							<div class="tit-area">
+                                <h3>DDP 아카이브 사진집 개정증보판 안내</h3>
+                            </div>
+							<div class="txt-area">
+                                <p class="desc-wrap">[DDP 아카이브 사진집 개정증보판]은 DDP의 건축적 조형미를 아카이브한 사진집입니다
+                                    DDP의 개관 시 모습부터 현재 모습까지, 봄의 풍경부터 겨울의 풍경까지 담아냈습니다. 
+                                    한국의 전통부터 디자인의 미래까지 과거-현재-미래가 조화로운 DDP를 보여줍니다. 
+                                    역동적인 힘이 느껴지는 곡선의 장소, DDP를 [DDP 아카이브 사진집 개정증보판]을 통해 만나보세요.</p>
+                                <div class="period-wrap">
+                                    <span class="period">2022-10-28 ~ 조기마감시까지</span>
+                                </div>
+                            </div>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+            <!-- notice 끝 -->
+
+            <!-- footer -->
+
+            <footer class="footer">
+                <p class="copyright">COPYRIGHT &copy; 2023 DDP.ALL RIGHTS RESERVED.</p>
+            </footer>
+		</main>
+	</wrapper>
+
+
+    <!-- javascript -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.min.js"></script>
+</body>
+
+</html>
